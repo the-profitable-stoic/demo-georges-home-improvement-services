@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "Georges Home Improvement Services",
+    "phone": "+16098516094",
+    "category": "handyman service",
+    "city": "Philadelphia",
+    "state": "PA"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-trust-navy",
+      "categoryGroup": "roofing",
+      "name": "Trust Navy",
+      "recipeFile": "roofing/trust-navy.astro",
+      "colors": {
+        "primary": "#2C4563",
+        "primaryDark": "#1B2F45",
+        "primaryLight": "#D4E0ED",
+        "secondary": "#3D5A80",
+        "accent": "#3D6B5A",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#2C4563",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "700",
+        "bodyFont": "Source Sans 3",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Philly's Trusted Handyman",
+      "heroSubline": "Reliable repairs, renovations, and maintenance for your home. Serving Philadelphia and surrounding areas with expert craftsmanship.",
+      "aboutTitle": "Georges Home Improvement: Philly's Home Repair Experts",
+      "aboutText": [
+        "Georges Home Improvement Services started with a simple goal: provide reliable, high-quality handyman services to the Philadelphia community. We saw a need for skilled professionals who understood the unique challenges of maintaining Philly's diverse housing stock, from historic row homes to modern condos.",
+        "Our approach is built on clear communication, transparent pricing, and meticulous attention to detail. We treat every project, big or small, with the same level of care and dedication, ensuring your complete satisfaction. We believe in doing the job right the first time, every time.",
+        "We're proud to be a part of the Philadelphia community. We source materials locally whenever possible and actively support local initiatives. Our commitment extends beyond just fixing homes; we're invested in making Philadelphia a better place for everyone."
+      ],
+      "valueProps": [
+        {
+          "title": "Experienced Professionals",
+          "description": "Our team comprises seasoned handymen with years of experience tackling diverse home repair challenges in Philadelphia."
+        },
+        {
+          "title": "Reliable and Punctual",
+          "description": "We respect your time and always arrive on schedule, ready to get the job done efficiently and effectively."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "No surprises! We provide detailed and transparent estimates before starting any work, so you know exactly what to expect."
+        },
+        {
+          "title": "Satisfaction Guaranteed",
+          "description": "We stand behind our work. If you're not completely satisfied, we'll make it right, no questions asked."
+        }
+      ],
+      "ctaHeadline": "Ready to Get Started?",
+      "ctaSubline": "Contact Georges Home Improvement Services today for a free estimate. Let us handle your home repair needs with expertise and care."
+    },
+    "services": [
+      {
+        "slug": "drywall-repair",
+        "name": "Drywall Repair",
+        "shortDescription": "Expert drywall repair services to restore your walls to their original condition.",
+        "description": "From small holes and cracks to larger damage caused by water or impact, Georges Home Improvement Services provides comprehensive drywall repair services. We handle everything from patching and mudding to sanding and painting, ensuring a seamless finish that blends perfectly with your existing walls. We understand the nuances of older homes in Philadelphia and can match textures and finishes to maintain their original character. Our team uses high-quality materials and proven techniques to deliver durable and long-lasting repairs. We take pride in minimizing dust and disruption during the repair process, leaving your home clean and tidy. Whether it's a quick fix or a more extensive repair, you can trust us to restore your walls to their former glory.\n\nWe also offer drywall installation services for new construction or remodeling projects. Count on us for accurate measurements, precise cuts, and professional installation.\n\nTypical drywall issues we see in Philly homes include moisture damage from leaky roofs, cracks from settling foundations (especially in older row homes), and damage from errant furniture during those tight row home moves.",
+        "process": [
+          "Step 1: Assess the damage and provide a detailed estimate.",
+          "Step 2: Prepare the area by removing loose debris and protecting surrounding surfaces.",
+          "Step 3: Patch, mud, and sand the drywall to create a smooth surface.",
+          "Step 4: Prime and paint the repaired area to match the existing color and texture."
+        ],
+        "benefits": [
+          "Restores the appearance of your walls",
+          "Prevents further damage from moisture or pests",
+          "Increases the value of your home",
+          "Provides a smooth and even surface for painting or wallpapering"
+        ],
+        "faq": [
+          {
+            "question": "How long will the drywall repair take?",
+            "answer": "The duration of the repair depends on the extent of the damage. Small holes can often be repaired in a few hours, while larger repairs may take a day or two. We'll provide a more accurate timeline during the initial assessment."
+          },
+          {
+            "question": "Will the repair be noticeable?",
+            "answer": "We take great care to blend the repaired area seamlessly with the existing wall. Our skilled technicians are experts at matching textures and finishes, ensuring a virtually invisible repair."
+          },
+          {
+            "question": "Do you offer painting services after the drywall repair?",
+            "answer": "Yes, we offer complete painting services to match the existing color and texture of your walls. We use high-quality paints for a durable and long-lasting finish."
+          }
+        ]
+      },
+      {
+        "slug": "plumbing-repairs",
+        "name": "Plumbing Repairs",
+        "shortDescription": "Fixing leaks, unclogging drains, and handling all your plumbing needs efficiently.",
+        "description": "Georges Home Improvement Services offers a comprehensive range of plumbing repair services to address any issue you may encounter. From dripping faucets and leaky pipes to clogged drains and running toilets, we have the expertise to diagnose and resolve plumbing problems quickly and effectively. We understand the challenges of working with older plumbing systems common in Philadelphia's historic homes and are equipped to handle even the most complex repairs. Our team uses high-quality materials and adheres to all local plumbing codes to ensure lasting results. We prioritize minimizing disruption to your home and always clean up thoroughly after completing the work.\n\nWe understand the urgency of plumbing issues and offer prompt and reliable service to prevent further damage to your property. Count on us for emergency plumbing repairs, water heater maintenance, and fixture replacements.\n\nPhilly's freeze-thaw cycle can wreak havoc on older pipes, so we're especially adept at repairing burst or cracked pipes during the winter months.",
+        "process": [
+          "Step 1: Diagnose the plumbing problem and provide a clear explanation of the issue.",
+          "Step 2: Offer a detailed estimate for the repair work.",
+          "Step 3: Complete the repair using high-quality materials and proven techniques.",
+          "Step 4: Test the repair to ensure proper functionality and prevent future leaks."
+        ],
+        "benefits": [
+          "Prevents water damage and costly repairs",
+          "Saves water and reduces your utility bills",
+          "Ensures proper drainage and sanitation",
+          "Extends the lifespan of your plumbing system"
+        ],
+        "faq": [
+          {
+            "question": "How quickly can you respond to a plumbing emergency?",
+            "answer": "We understand that plumbing emergencies require immediate attention. We strive to respond to emergency calls as quickly as possible, often within the hour, depending on our current workload and your location in Philadelphia."
+          },
+          {
+            "question": "Do you offer water heater repair and replacement services?",
+            "answer": "Yes, we offer comprehensive water heater services, including repairs, maintenance, and replacements. We can help you choose the right water heater for your needs and install it professionally."
+          },
+          {
+            "question": "Are your plumbers licensed and insured?",
+            "answer": "Yes, all our plumbers are licensed and insured, ensuring that your plumbing repairs are handled by qualified professionals who adhere to all local codes and regulations."
+          }
+        ]
+      },
+      {
+        "slug": "electrical-services",
+        "name": "Electrical Services",
+        "shortDescription": "Safe and reliable electrical repairs, installations, and upgrades for your home.",
+        "description": "Georges Home Improvement Services provides a full spectrum of electrical services to ensure the safety and functionality of your home's electrical system. From simple repairs like replacing outlets and switches to more complex installations like wiring new circuits and upgrading electrical panels, we have the expertise to handle any electrical project. We understand the complexities of older electrical systems found in many Philadelphia homes and are skilled at troubleshooting and resolving electrical issues efficiently. Our team adheres to all local electrical codes and safety standards, ensuring that your electrical work is done correctly and safely.\n\nWe offer emergency electrical services to address urgent issues such as power outages, sparking outlets, and damaged wiring. Count on us for reliable and professional electrical solutions.\n\nWith Philadelphia's aging housing stock, knob-and-tube wiring is still present in some homes. We specialize in safe removal and replacement of this outdated wiring.",
+        "process": [
+          "Step 1: Diagnose the electrical problem and provide a detailed explanation of the issue.",
+          "Step 2: Offer a detailed estimate for the repair or installation work.",
+          "Step 3: Complete the work using high-quality materials and adhering to all safety standards.",
+          "Step 4: Test the electrical system to ensure proper functionality and safety."
+        ],
+        "benefits": [
+          "Ensures the safety of your home and family",
+          "Prevents electrical fires and hazards",
+          "Improves the functionality of your electrical system",
+          "Increases the value of your home"
+        ],
+        "faq": [
+          {
+            "question": "How can I tell if I need to upgrade my electrical panel?",
+            "answer": "If you're experiencing frequent tripped breakers, flickering lights, or are planning to add new appliances, it may be time to upgrade your electrical panel. We can assess your electrical needs and recommend the appropriate panel upgrade."
+          },
+          {
+            "question": "Are you licensed and insured to perform electrical work in Philadelphia?",
+            "answer": "Yes, we are fully licensed and insured to perform electrical work in Philadelphia. Our electricians are highly trained and experienced, ensuring that your electrical projects are handled with the utmost care and professionalism."
+          },
+          {
+            "question": "Do you offer emergency electrical services?",
+            "answer": "Yes, we offer 24/7 emergency electrical services to address urgent electrical issues. Call us anytime for prompt and reliable assistance."
+          }
+        ]
+      },
+      {
+        "slug": "painting-services",
+        "name": "Painting Services",
+        "shortDescription": "Professional interior and exterior painting to transform your home.",
+        "description": "Georges Home Improvement Services offers professional interior and exterior painting services to enhance the beauty and value of your home. We use high-quality paints and proven techniques to deliver a flawless finish that will last for years to come. Our team is experienced in preparing surfaces, applying primer, and painting with precision, ensuring a smooth and even coat. We offer a wide range of colors and finishes to suit your style and preferences. We understand the importance of protecting your furniture and belongings during the painting process and take extra care to minimize mess and disruption. \n\nWe offer both interior and exterior painting services, including wall painting, trim painting, ceiling painting, and siding painting. We also offer color consultation services to help you choose the perfect colors for your home.\n\nPhilly's weather can be tough on exterior paint, especially on brick row homes. We use durable, weather-resistant paints to protect your home from the elements.",
+        "process": [
+          "Step 1: Prepare surfaces by cleaning, sanding, and priming.",
+          "Step 2: Apply paint using high-quality brushes and rollers.",
+          "Step 3: Apply multiple coats for a smooth and even finish.",
+          "Step 4: Clean up the work area and remove all debris."
+        ],
+        "benefits": [
+          "Enhances the beauty and value of your home",
+          "Protects surfaces from damage",
+          "Improves the air quality in your home",
+          "Creates a fresh and inviting atmosphere"
+        ],
+        "faq": [
+          {
+            "question": "How long does it take to paint a room?",
+            "answer": "The time it takes to paint a room depends on the size of the room, the condition of the walls, and the number of coats required. We can provide a more accurate estimate during the initial consultation."
+          },
+          {
+            "question": "Do you offer color consultation services?",
+            "answer": "Yes, we offer color consultation services to help you choose the perfect colors for your home. Our experienced consultants can provide expert advice on color schemes and finishes."
+          },
+          {
+            "question": "What type of paint do you use?",
+            "answer": "We use high-quality paints from trusted brands that are durable, long-lasting, and environmentally friendly. We can also recommend specific paints for different surfaces and applications."
+          }
+        ]
+      },
+      {
+        "slug": "carpentry-services",
+        "name": "Carpentry Services",
+        "shortDescription": "Custom carpentry solutions for repairs, renovations, and new construction.",
+        "description": "Georges Home Improvement Services offers a wide range of carpentry services to meet your needs. From minor repairs to custom projects, our skilled carpenters can handle any job with precision and expertise. Whether you need a new deck built, a custom bookshelf installed, or a door repaired, we have the skills and experience to deliver exceptional results. We use high-quality materials and proven techniques to ensure that our carpentry work is both beautiful and durable. We understand the importance of attention to detail and take pride in our craftsmanship. \n\nWe offer custom carpentry services for a variety of projects, including decks, fences, cabinets, shelving, and trim work. We also offer carpentry repair services for damaged or worn-out structures.\n\nMany Philadelphia homes feature intricate trim and molding. We specialize in matching existing trim and replicating historic details.",
+        "process": [
+          "Step 1: Discuss your carpentry needs and provide a detailed estimate.",
+          "Step 2: Design and plan the project to meet your specifications.",
+          "Step 3: Construct or repair the carpentry structure using high-quality materials.",
+          "Step 4: Finish the project with painting, staining, or sealing as needed."
+        ],
+        "benefits": [
+          "Enhances the beauty and functionality of your home",
+          "Increases the value of your property",
+          "Provides custom solutions to meet your specific needs",
+          "Creates a unique and personalized living space"
+        ],
+        "faq": [
+          {
+            "question": "Do you offer custom cabinet design and installation?",
+            "answer": "Yes, we offer custom cabinet design and installation services. We can create custom cabinets to fit your specific needs and style preferences."
+          },
+          {
+            "question": "Can you repair damaged wood trim or molding?",
+            "answer": "Yes, we can repair damaged wood trim or molding. Our skilled carpenters can restore your trim and molding to its original condition."
+          },
+          {
+            "question": "What type of wood do you use for your carpentry projects?",
+            "answer": "We use a variety of wood types for our carpentry projects, depending on the specific application and your preferences. We can recommend the best wood for your project based on its durability, appearance, and cost."
+          }
+        ]
+      },
+      {
+        "slug": "gutter-cleaning-repair",
+        "name": "Gutter Cleaning & Repair",
+        "shortDescription": "Protecting your home with expert gutter maintenance and repair.",
+        "description": "Georges Home Improvement Services ensures your gutters function flawlessly, protecting your Philadelphia home from water damage. We provide thorough gutter cleaning to remove leaves, debris, and blockages that can cause water to overflow and damage your roof, siding, and foundation. We also offer gutter repair services to fix leaks, sagging gutters, and damaged downspouts. Our team uses safe and effective methods to clean and repair your gutters, ensuring they are properly aligned and functioning optimally. We understand the importance of regular gutter maintenance, especially in Philadelphia's climate, where heavy rain and snow can quickly clog gutters. \n\nWe offer gutter cleaning, gutter repair, downspout repair, and gutter guard installation services. We also provide inspections to identify potential problems before they become major issues.\n\nPhiladelphia's row homes often have interconnected gutter systems. We understand how to maintain these complex systems to prevent water damage to multiple properties.",
+        "process": [
+          "Step 1: Inspect gutters and downspouts for damage and blockages.",
+          "Step 2: Remove leaves, debris, and other obstructions from gutters.",
+          "Step 3: Repair any leaks, sagging gutters, or damaged downspouts.",
+          "Step 4: Ensure gutters are properly aligned and draining correctly."
+        ],
+        "benefits": [
+          "Prevents water damage to your roof, siding, and foundation",
+          "Protects your home from mold and mildew growth",
+          "Extends the lifespan of your gutters",
+          "Saves you money on costly repairs"
+        ],
+        "faq": [
+          {
+            "question": "How often should I clean my gutters?",
+            "answer": "We recommend cleaning your gutters at least twice a year, in the spring and fall. However, if you have a lot of trees around your home, you may need to clean them more frequently."
+          },
+          {
+            "question": "Do you offer gutter guard installation?",
+            "answer": "Yes, we offer gutter guard installation services. Gutter guards can help prevent leaves and debris from clogging your gutters, reducing the need for frequent cleaning."
+          },
+          {
+            "question": "What are the signs that my gutters need to be repaired?",
+            "answer": "Signs that your gutters need to be repaired include leaks, sagging gutters, damaged downspouts, and water overflowing from the gutters."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Philadelphia",
+        "slug": "philadelphia-pa",
+        "state": "PA",
+        "content": "Georges Home Improvement Services is proud to serve the vibrant city of Philadelphia and its surrounding communities. From historic row homes in South Philly to modern apartments in University City, we offer a full range of handyman services to meet the diverse needs of Philadelphia residents. Whether you need help with a leaky faucet, drywall repair, or a complete kitchen remodel, our experienced team is here to provide reliable and professional service.\n\nWe understand the unique challenges of maintaining homes in Philadelphia, from navigating narrow streets to preserving the character of historic buildings. That's why we prioritize clear communication, efficient work, and respect for your property. Let Georges Home Improvement Services take care of your home improvement needs so you can focus on enjoying all that Philadelphia has to offer.",
+        "localContext": "Philadelphia is a city rich in history and culture, known for its iconic landmarks, diverse neighborhoods, and passionate sports fans.",
+        "nearbyAreas": [
+          "Camden",
+          "Upper Darby",
+          "Bala Cynwyd"
+        ]
+      },
+      {
+        "city": "Upper Darby",
+        "slug": "upper-darby-pa",
+        "state": "PA",
+        "content": "Georges Home Improvement Services extends its expert handyman services to the diverse community of Upper Darby. As a bustling suburb of Philadelphia, Upper Darby presents a mix of housing styles, from classic single-family homes to modern apartments. We are equipped to handle any home repair or renovation project, big or small.\n\nOur team is familiar with the specific needs of Upper Darby homeowners, including addressing common issues like aging plumbing and electrical systems. We are committed to providing prompt, reliable, and affordable service to ensure your home is safe, comfortable, and well-maintained. Choose Georges Home Improvement Services for all your handyman needs in Upper Darby.",
+        "localContext": "Upper Darby is a vibrant and diverse township known for its strong community spirit and convenient access to Philadelphia.",
+        "nearbyAreas": [
+          "Philadelphia",
+          "Drexel Hill",
+          "Clifton Heights"
+        ]
+      },
+      {
+        "city": "Bala Cynwyd",
+        "slug": "bala-cynwyd-pa",
+        "state": "PA",
+        "content": "Georges Home Improvement Services proudly serves the residents of Bala Cynwyd, providing top-notch handyman services with a focus on quality and customer satisfaction. Bala Cynwyd is known for its beautiful homes and well-maintained properties, and we are dedicated to helping homeowners preserve and enhance their investments.\n\nWhether you need assistance with minor repairs, major renovations, or routine maintenance, our skilled technicians are ready to assist. We understand the importance of attention to detail and meticulous craftsmanship, and we strive to exceed your expectations on every project. Trust Georges Home Improvement Services to keep your Bala Cynwyd home in perfect condition.",
+        "localContext": "Bala Cynwyd is an affluent suburb on the Main Line, known for its excellent schools, upscale shopping, and beautiful residential areas.",
+        "nearbyAreas": [
+          "Narberth",
+          "Wynnewood",
+          "Philadelphia"
+        ]
+      },
+      {
+        "city": "Camden",
+        "slug": "camden-nj",
+        "state": "NJ",
+        "content": "Georges Home Improvement Services is pleased to offer its handyman services to the residents of Camden, NJ. We understand the diverse needs of homeowners in Camden and are committed to providing reliable and affordable solutions for all your home repair and maintenance needs. From fixing leaky faucets to painting entire rooms, we handle every task with professionalism and care.\n\nWe are dedicated to helping Camden residents improve their homes and create comfortable living spaces. Our team is experienced in working with a variety of property types and is committed to providing exceptional customer service. Choose Georges Home Improvement Services for all your handyman needs in Camden.",
+        "localContext": "Camden, NJ is a city undergoing revitalization, with a growing arts scene and a renewed focus on community development.",
+        "nearbyAreas": [
+          "Philadelphia",
+          "Gloucester City",
+          "Pennsauken"
+        ]
+      },
+      {
+        "city": "Drexel Hill",
+        "slug": "drexel-hill-pa",
+        "state": "PA",
+        "content": "Georges Home Improvement Services proudly extends its services to Drexel Hill, PA, offering reliable and professional handyman solutions. Drexel Hill is characterized by its diverse housing stock, from older, established homes to newer constructions. We are equipped to handle a wide range of home improvement projects, ensuring your home is safe, functional, and beautiful.\n\nOur team understands the specific needs of Drexel Hill homeowners and is committed to providing exceptional customer service. We prioritize clear communication, transparent pricing, and quality workmanship. Let Georges Home Improvement Services take care of your home maintenance needs in Drexel Hill.",
+        "localContext": "Drexel Hill is a vibrant community in Delaware County, known for its excellent schools, convenient location, and friendly atmosphere.",
+        "nearbyAreas": [
+          "Upper Darby",
+          "Havertown",
+          "Springfield"
+        ]
+      },
+      {
+        "city": "Narberth",
+        "slug": "narberth-pa",
+        "state": "PA",
+        "content": "Georges Home Improvement Services is delighted to serve the charming borough of Narberth, PA. Known for its close-knit community and historic homes, Narberth residents take pride in their properties. We offer a comprehensive range of handyman services to help you maintain and improve your home, from minor repairs to complete renovations.\n\nWe appreciate the unique character of Narberth homes and are committed to providing services that respect their architectural integrity. Our team is experienced in working with older homes and is dedicated to preserving their charm while ensuring they are safe and functional for modern living. Choose Georges Home Improvement Services for your Narberth home improvement needs.",
+        "localContext": "Narberth is a small, walkable borough on the Main Line, known for its excellent schools, local shops, and community events.",
+        "nearbyAreas": [
+          "Bala Cynwyd",
+          "Wynnewood",
+          "Ardmore"
+        ]
+      },
+      {
+        "city": "Wynnewood",
+        "slug": "wynnewood-pa",
+        "state": "PA",
+        "content": "Georges Home Improvement Services is pleased to offer handyman services to the residents of Wynnewood, PA. Known for its beautiful homes and manicured lawns, Wynnewood is a community that values quality and attention to detail. We are committed to providing top-notch home repair and improvement services that meet the high standards of Wynnewood homeowners.\n\nWhether you need help with a small repair or a major renovation, our team is equipped to handle the job with professionalism and expertise. We understand the importance of clear communication, transparent pricing, and quality workmanship. Trust Georges Home Improvement Services to keep your Wynnewood home in excellent condition.",
+        "localContext": "Wynnewood is an affluent suburb on the Main Line, known for its beautiful homes, excellent schools, and convenient access to Philadelphia.",
+        "nearbyAreas": [
+          "Bala Cynwyd",
+          "Narberth",
+          "Ardmore"
+        ]
+      },
+      {
+        "city": "Ardmore",
+        "slug": "ardmore-pa",
+        "state": "PA",
+        "content": "Georges Home Improvement Services proudly serves the vibrant community of Ardmore, PA, providing reliable and professional handyman services. Ardmore is known for its diverse housing options, from historic homes to modern apartments. We are equipped to handle a wide range of home improvement projects, ensuring your home is safe, functional, and beautiful.\n\nOur team understands the specific needs of Ardmore homeowners and is committed to providing exceptional customer service. We prioritize clear communication, transparent pricing, and quality workmanship. Let Georges Home Improvement Services take care of your home maintenance needs in Ardmore.",
+        "localContext": "Ardmore is a bustling town on the Main Line, known for its vibrant downtown area, diverse shops and restaurants, and convenient access to public transportation.",
+        "nearbyAreas": [
+          "Haverford",
+          "Wynnewood",
+          "Bryn Mawr"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Maria S.",
+        "rating": 5,
+        "service": "Drywall Repair",
+        "text": "Georges Home Improvement Services did an excellent job repairing a large hole in my living room wall. The repair was seamless, and you can't even tell there was ever any damage. They were professional, efficient, and very reasonably priced. Highly recommend!",
+        "date": "2024-11-15"
+      },
+      {
+        "name": "David B.",
+        "rating": 4,
+        "service": "Plumbing Repair",
+        "text": "I had a leaky faucet that was driving me crazy. Georges Home Improvement Services came out quickly and fixed it without any problems. The plumber was friendly and knowledgeable. I was happy with the service.",
+        "date": "2024-12-01"
+      },
+      {
+        "name": "Jessica L.",
+        "rating": 5,
+        "service": "Electrical Services",
+        "text": "Georges Home Improvement Services upgraded my electrical panel and installed new outlets in my kitchen. The electrician was very professional and took the time to explain everything to me. I feel much safer knowing my electrical system is up to code.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Michael K.",
+        "rating": 5,
+        "service": "Painting Services",
+        "text": "Georges Home Improvement Services painted the exterior of my row home in Fishtown. They did a fantastic job, and the house looks brand new. The painters were meticulous and paid attention to every detail. I couldn't be happier with the results.",
+        "date": "2025-02-20"
+      },
+      {
+        "name": "Emily R.",
+        "rating": 4,
+        "service": "Carpentry Services",
+        "text": "Georges Home Improvement Services built a custom bookshelf for my home office. The bookshelf is beautiful and exactly what I wanted. The carpenter was skilled and easy to work with. My only complaint is that the project took a little longer than expected.",
+        "date": "2025-03-05"
+      },
+      {
+        "name": "Peter T.",
+        "rating": 5,
+        "service": "Gutter Cleaning & Repair",
+        "text": "After a particularly bad Nor'easter, my gutters were overflowing. Georges Home Improvement Services came out and cleaned them thoroughly, and also repaired a section that had come loose. They saved me from potential water damage. Great service!",
+        "date": "2025-03-15"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Philly Handyman | Georges Home Improvement Services",
+        "description": "Reliable handyman services in Philadelphia, PA. Expert repairs, renovations, and maintenance for your home. Call us today!"
+      },
+      "about": {
+        "title": "About Us | Georges Home Improvement Services",
+        "description": "Learn about Georges Home Improvement Services in Philadelphia, PA. Our commitment to quality and customer satisfaction."
+      },
+      "services": {
+        "title": "Handyman Services | Georges Home Improvement Services",
+        "description": "Comprehensive handyman services in Philadelphia, PA. Drywall, plumbing, electrical, painting, carpentry, and more."
+      },
+      "contact": {
+        "title": "Contact Us | Georges Home Improvement Services",
+        "description": "Contact Georges Home Improvement Services in Philadelphia, PA. Get a free estimate for your home repair needs."
+      },
+      "reviews": {
+        "title": "Reviews | Georges Home Improvement Services",
+        "description": "Read reviews from satisfied customers of Georges Home Improvement Services in Philadelphia, PA."
+      },
+      "service-areas": {
+        "title": "Service Areas | Georges Home Improvement Services",
+        "description": "Georges Home Improvement Services provides handyman services throughout Philadelphia and surrounding areas."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "drywall-repair": "/images/service-drywall-repair.webp",
+      "plumbing-repairs": "/images/service-plumbing-repairs.webp",
+      "electrical-services": "/images/service-electrical-services.webp",
+      "painting-services": "/images/service-painting-services.webp",
+      "carpentry-services": "/images/service-carpentry-services.webp",
+      "gutter-cleaning-repair": "/images/service-gutter-cleaning-repair.webp"
+    },
+    "servicesResponsive": {
+      "drywall-repair": {
+        "src": "/images/service-drywall-repair.webp",
+        "srcset": "/images/service-drywall-repair-400w.webp 400w, /images/service-drywall-repair-800w.webp 800w, /images/service-drywall-repair-1200w.webp 1200w, /images/service-drywall-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "plumbing-repairs": {
+        "src": "/images/service-plumbing-repairs.webp",
+        "srcset": "/images/service-plumbing-repairs-400w.webp 400w, /images/service-plumbing-repairs-800w.webp 800w, /images/service-plumbing-repairs-1200w.webp 1200w, /images/service-plumbing-repairs.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "electrical-services": {
+        "src": "/images/service-electrical-services.webp",
+        "srcset": "/images/service-electrical-services-400w.webp 400w, /images/service-electrical-services-800w.webp 800w, /images/service-electrical-services-1200w.webp 1200w, /images/service-electrical-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "painting-services": {
+        "src": "/images/service-painting-services.webp",
+        "srcset": "/images/service-painting-services-400w.webp 400w, /images/service-painting-services-800w.webp 800w, /images/service-painting-services-1200w.webp 1200w, /images/service-painting-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "carpentry-services": {
+        "src": "/images/service-carpentry-services.webp",
+        "srcset": "/images/service-carpentry-services-400w.webp 400w, /images/service-carpentry-services-800w.webp 800w, /images/service-carpentry-services-1200w.webp 1200w, /images/service-carpentry-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "gutter-cleaning-repair": {
+        "src": "/images/service-gutter-cleaning-repair.webp",
+        "srcset": "/images/service-gutter-cleaning-repair-400w.webp 400w, /images/service-gutter-cleaning-repair-800w.webp 800w, /images/service-gutter-cleaning-repair-1200w.webp 1200w, /images/service-gutter-cleaning-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
